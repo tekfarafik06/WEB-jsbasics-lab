@@ -13,3 +13,5 @@ cache:
 test:
   script:
   - npm run test
+  tags:
+  - WEB-IHM
