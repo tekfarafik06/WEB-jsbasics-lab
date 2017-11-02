@@ -1,0 +1,23 @@
+{
+  "name": "JSBasicsLab",
+  "version": "1.0.0",
+  "description": "First Lab of the 'WEB-IHM' lecture for the iWOCS Master degree",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test mocha --recursive --require babel-register",
+    "pretest": "cross-env eslint src test"
+  },
+  "keywords": [],
+  "author": " Yoann Pigné",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "cross-env": "^5.1.1",
+    "eslint": "^4.10.0",
+    "expect": "^21.2.1",
+    "jsdom": "^11.3.0",
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {}
+}
