@@ -1,4 +1,4 @@
-# JSBasicsLab[![Build Status](https://travis-ci.org/ULH-WebDevelopment/JSBasicsLab.svg?branch=master)](https://travis-ci.org/ULH-WebDevelopment/JSBasicsLab)
+# JSBasicsLab[![Build Status](https://www-apps.univ-lehavre.fr/forge/WEB-IHM/JSBasicsLab/badges/master/build.svg)](https://www-apps.univ-lehavre.fr/forge/WEB-IHM/JSBasicsLab/pipelines)
 
 Ce projet est principalement constitué d'un fichier de tests (`test/js_basics/index.js`) qui s'applique sur un ensemble de fonctions (`src/js_basics/index.js`). Les tests sont écrits, mais le corps des fonctions testées est vide.
 
