@@ -1,4 +1,4 @@
-# JSBasicsLab [![Build Status](https://www-apps.univ-lehavre.fr/forge/WEB-IHM/JSBasicsLab/badges/master/build.svg)](https://www-apps.univ-lehavre.fr/forge/WEB-IHM/JSBasicsLab/pipelines)
+# JSBasicsLab [![pipeline status](https://www-apps.univ-lehavre.fr/forge/WEB-IHM/JSBasicsLab/badges/master/pipeline.svg)](https://www-apps.univ-lehavre.fr/forge/WEB-IHM/JSBasicsLab/commits/master)  [![coverage report](https://www-apps.univ-lehavre.fr/forge/WEB-IHM/JSBasicsLab/badges/master/coverage.svg)](https://www-apps.univ-lehavre.fr/forge/WEB-IHM/JSBasicsLab/commits/master)
 
 Ce projet est principalement constitué d'un fichier de tests (`test/index.js`) qui s'applique sur un ensemble de fonctions (`src/index.js`). Les tests sont écrits, mais le corps des fonctions testées est vide !
 
