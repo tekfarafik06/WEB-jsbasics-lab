@@ -42,5 +42,3 @@ Quand tous les tests passent, que la couverture du code par les tests est satisf
 - L'outils permettant l'exécution des tests est la plateforme [Jest](http://facebook.github.io/jest/).
 - [NPM](https://www.npmjs.com/) est utilisé pour la gestion des dépendances et l'exécution des différents scripts.
 
-
-
