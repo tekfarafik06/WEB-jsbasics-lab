@@ -1,5 +1,5 @@
 {
-  "name": "js-basics-lab",
+  "name": "js-basics-lab-2",
   "version": "1.0.0",
   "description": "First Lab of the 'WEB-IHM' lecture for the iWOCS Master degree",
   "main": "src/index.js",
@@ -11,12 +11,12 @@
   "author": " Yoann Pigné",
   "license": "ISC",
   "devDependencies": {
-    "babel-jest": "^21.2.0",
-    "babel-preset-env": "^1.6.1",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
-    "cross-env": "^5.1.1",
-    "eslint": "^4.10.0",
-    "jest": "^21.2.1"
+    "cross-env": "^5.2.0",
+    "eslint": "^5.6.1",
+    "jest": "^23.6.0"
   },
   "dependencies": {}
 }
