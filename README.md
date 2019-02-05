@@ -1,7 +1,7 @@
-# JSBasicsLab [![pipeline status](https://www-apps.univ-lehavre.fr/forge/WEB-IHM/JSBasicsLab/badges/master/pipeline.svg)](https://www-apps.univ-lehavre.fr/forge/WEB-IHM/JSBasicsLab/commits/master)  [![coverage report](https://www-apps.univ-lehavre.fr/forge/WEB-IHM/JSBasicsLab/badges/master/coverage.svg)](https://www-apps.univ-lehavre.fr/forge/WEB-IHM/JSBasicsLab/commits/master)
+# WEB-jsbasics-lab [![pipeline status](https://www-apps.univ-lehavre.fr/forge/2018-2019-M1/WEB-jsbasics-lab/badges/master/pipeline.svg)](https://www-apps.univ-lehavre.fr/forge/2018-2019-M1/WEB-jsbasics-lab/commits/master)  [![coverage report](https://www-apps.univ-lehavre.fr/forge/2018-2019-M1/WEB-jsbasics-lab/badges/master/coverage.svg)](https://www-apps.univ-lehavre.fr/forge/2018-2019-M1/WEB-jsbasics-lab/commits/master)
 
-- Année : M2 iWOCS
-- Matière: WEB-IHM
+- Année : M1 iWOCS 2018-2019
+- Matière: M1
 - TP : n°1
 
 ## Auteur(s)
@@ -14,7 +14,7 @@
 
 - [ ] Se connecter à la [forge de l'université](https://www-apps.univ-lehavre.fr/forge) avec son propre login (se connecter avec le CAS de l'université la première fois). :warning: Bien s'assurer que **GIT est correctement configuré**. Pour plus d'information sur GIT, GitLab et la forge de l'université, se référer au [cours introductif au travail en équipe à l'université](https://pigne.org/teaching/general/lecture/Gestion-de-version-travail-en-equipe).
 - [ ] "*Forker*" ou "diverger" le projet (bouton "*Fork*" ou "Divergence").
-- [ ] Cloner son propre projet dans une copie de travail locale en utilisant le schema d'URL `https` (`git clone https://www-apps.univ-lehavre.fr/forge/USERNAME/JSBasicsLab.git`)
+- [ ] Cloner son propre projet dans une copie de travail locale en utilisant le schema d'URL `https` (`git clone https://www-apps.univ-lehavre.fr/forge/LOGIN/WEB-jsbasics-lab.git`)
 - [ ] Modifier le fichier README.md (ce fichier) pour y faire apparaître vos coordonnées (nom, prénom, login, email).
 - [ ] Dans la copie de travail exécuter la commande `npm install` ou `npm i` pour installer les dépendances du projet.
 - [ ] Lancer les tests : `npm test` ou `npm t`
@@ -25,7 +25,7 @@
 
 ## Fin du travail
 
-Quand tous les tests passent, que la couverture du code par les tests est satisfaisante () et que les modifications sont enregistrées (avec des `commit`) :
+Quand tous les tests passent, que la couverture du code par les tests est satisfaisante et que les modifications sont enregistrées (avec des `commit`) :
 
 1. publiez votre projet : `git push`. Cela aura pour conséquence, en plus de publier vos modifications sur votre version du projet, de lancer l'exécution des tests unitaires sur le serveur d'intégration continue de la forge.
 2. créez un [merge request](https://docs.gitlab.com/ee/gitlab-basics/add-merge-request.html) pour que je puisse évaluer votre travail.

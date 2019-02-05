@@ -12,6 +12,7 @@ cache:
     
 test:
   script:
-  - npm run test
+  - npm run ci
   tags:
-  - iWOCS
+  - IWOCS
+  coverage: /All files\s+\|\s+([\d.]+)/
