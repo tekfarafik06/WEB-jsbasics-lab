@@ -1,6 +1,6 @@
-# JS Basics Lab [![pipeline status](https://www-apps.univ-lehavre.fr/forge/2018-2019-M1/WEB-jsbasics-lab/badges/master/pipeline.svg)](https://www-apps.univ-lehavre.fr/forge/2018-2019-M1/WEB-jsbasics-lab/commits/master)  [![coverage report](https://www-apps.univ-lehavre.fr/forge/2018-2019-M1/WEB-jsbasics-lab/badges/master/coverage.svg)](https://www-apps.univ-lehavre.fr/forge/2018-2019-M1/WEB-jsbasics-lab/commits/master)
+# JS Basics Lab [![pipeline status](https://www-apps.univ-lehavre.fr/forge/2019-2020-M1/WEB-jsbasics-lab/badges/master/pipeline.svg)](https://www-apps.univ-lehavre.fr/forge/2019-2020-M1/WEB-jsbasics-lab/commits/master)  [![coverage report](https://www-apps.univ-lehavre.fr/forge/2019-2020-M1/WEB-jsbasics-lab/badges/master/coverage.svg)](https://www-apps.univ-lehavre.fr/forge/2019-2020-M1/WEB-jsbasics-lab/commits/master)
 
-- Année : M1 IWOCS 2018-2019
+- Année : M1 IWOCS 2019-2020
 - Matière: WEB
 - TP : n°1
 
