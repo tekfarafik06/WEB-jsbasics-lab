@@ -1,4 +1,4 @@
-image: node:8
+image: node:10
 
 before_script:
 - npm install
@@ -13,6 +13,4 @@ cache:
 test:
   script:
   - npm run ci 
-  tags:
-  - IWOCS
   coverage: /All files\s+\|\s+([\d.]+)/
