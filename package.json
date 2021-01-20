@@ -4,9 +4,9 @@
   "description": "First Lab of the 'WEB' lecture for the iWOCS Master degree",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest --coverage --runTestsByPath src/index.test.js",
     "pretest": "eslint src",
-    "ci": "jest --ci --coverage --color=false",
+    "ci": "jest --ci --coverage --color=false --runTestsByPath src/index.test.js",
     "preci": "eslint --no-color src"
   },
   "keywords": [],
