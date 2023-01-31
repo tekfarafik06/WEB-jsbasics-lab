@@ -200,6 +200,16 @@ export const echantillon = tab => tab[Math.floor(Math.random() * tab.length)];
  */
 export const enumerer = (tab, separateur = ', ', fin = separateur) => {
   // TODO
+   let stringRetour = "";
+   for (let i = 0; i < tab.length - 2; i++) {
+       stringRetour += tab[i] + separateur;
+   }
+   if (tab.length >= 2) {
+       stringRetour += tab[tab.length - 2] + fin + tab[tab.length - 1];
+   }else if (tab.length === 1){
+       stringRetour += tab[tab.length - 1];
+   }
+   return stringRetour;
 };
 
 /**
@@ -211,4 +221,5 @@ export const enumerer = (tab, separateur = ', ', fin = separateur) => {
  */
 export const nMax = (tab, n = 1) => {
   //TODO
+
 };
