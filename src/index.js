@@ -52,7 +52,7 @@ export const longestString = arr => {
  */
 export const reverseString = str => {
   // TODO
-
+    return str.split("").reverse().join("");
 };
 
 /**
@@ -64,6 +64,7 @@ export const reverseString = str => {
  */
 export const isPalindrome = str => {
   // TODO
+
 };
 
 /**
