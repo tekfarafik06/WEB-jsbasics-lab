@@ -34,11 +34,11 @@ export const getFileExtension = str => {
  */
 export const longestString = arr => {
   // TODO
-  var taill = 0;
+  var taille = 0;
   var longest;
       for (var i = 0; i < arr.length; i++) {
-          if (arr[i].length > taill && typeof arr[i] === 'string') {
-               taill = arr[i].length;
+          if (arr[i].length > taille && typeof arr[i] === 'string') {
+               taille = arr[i].length;
               longest = arr[i];
           }
       }
@@ -77,6 +77,16 @@ export const isPalindrome = str => {
  */
 export const nestedSum = arr => {
   // TODO
+   let somme = 0;
+      for(let i = 0; i < arr.length; i++){
+          if ( Array.isArray(arr[i]) ){
+              somme += nestedSum(arr[i]);
+          }if(typeof arr[i] === "number"){
+              somme += arr[i] ;
+          }
+      }
+      return somme;
+
 
 };
 
