@@ -220,6 +220,27 @@ export const enumerer = (tab, separateur = ', ', fin = separateur) => {
  * Utiliser `Array.prototype.sort()`, l'opérateur de destructuration (...) et `Array.prototype.slice()`
  */
 export const nMax = (tab, n = 1) => {
-  //TODO
-
+  // TODO
+    if (n <= 0) {
+        return [];
+    }
+    let tableau = tab.slice(0, tab.length);
+    tableau.sort(function(objets1, objets2){
+    let a = objets1;
+    let b = objets2;
+    if (typeof objets1 !== "number" || typeof objets2 !== "number") {
+        if (typeof objets1 !== "number" && typeof objets2 !== "number") {
+            return 0;
+        }else if (typeof objets1 !== "number") {
+            return 1;
+        }else {
+            return -1;
+        }
+    }
+    if(a === b){
+        return 0;
+    }
+    return a < b ? 1 : -1;
+    });
+    return (tableau.slice(0, n));
 };
