@@ -64,6 +64,10 @@ export const reverseString = str => {
  */
 export const isPalindrome = str => {
   // TODO
+  let re = /[\W_]/g;
+  let lowRegStr = str.toLowerCase().replace(re, '');
+  let reverseStr = reverseString(lowRegStr);
+  return reverseStr === lowRegStr;
 
 };
 
@@ -73,6 +77,7 @@ export const isPalindrome = str => {
  */
 export const nestedSum = arr => {
   // TODO
+
 };
 
 /**
