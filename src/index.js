@@ -34,6 +34,15 @@ export const getFileExtension = str => {
  */
 export const longestString = arr => {
   // TODO
+  var taill = 0;
+  var longest;
+      for (var i = 0; i < arr.length; i++) {
+          if (arr[i].length > taill && typeof arr[i] === 'string') {
+               taill = arr[i].length;
+              longest = arr[i];
+          }
+      }
+      return longest;
 };
 
 /**
@@ -43,6 +52,7 @@ export const longestString = arr => {
  */
 export const reverseString = str => {
   // TODO
+
 };
 
 /**
