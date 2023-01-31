@@ -136,6 +136,15 @@ export const retireDe = (tab, ...elms) => {
  */
 export const aplatirRecursif = tab => {
   //TODO
+    let resFinal = [] ;
+      for (let i = 0 ; i < tab.length ; i++) {
+          if (tab[i] instanceof Array) {
+            resFinal =  resFinal.concat(aplatirRecursif(tab[i]) );
+          }else {
+              resFinal = resFinal.concat(tab[i]);
+          }
+      }
+      return resFinal ;
 };
 
 /**
