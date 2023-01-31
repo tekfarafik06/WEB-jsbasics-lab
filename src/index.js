@@ -110,7 +110,18 @@ export const nestedSum = arr => {
  */
 export const retireDe = (tab, ...elms) => {
   // TODO
-};
+   let arr = [];
+   for (const elem of tab){
+     if( ! elms.includes(elem) ){
+       arr.push(elem);
+     }
+   }
+   tab.splice(0, tab.length);
+   for (const elem of arr){
+     tab.push(elem);
+   }
+ };
+
 
 /**
  * Aplatit en profondeur un tableau passé en paramètre.
