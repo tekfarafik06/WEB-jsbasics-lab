@@ -5,7 +5,11 @@
  */
 export const isNumberEven = i => {
   // TODO
-  return i%2===0 ;
+if( i % 2 ==0){
+    return true;
+  }else{
+    return false;
+  }
 };
 
 /**
@@ -15,6 +19,11 @@ export const isNumberEven = i => {
  */
 export const getFileExtension = str => {
   // TODO
+   if (str.lastIndexOf(".") > 0) {
+        return  str.substring(str.lastIndexOf(".") + 1);
+    } else {
+        return false;
+    }
 };
 
 /**
