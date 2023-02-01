@@ -8,6 +8,7 @@ import {
   retireDe,
   aplatirRecursif,
   permutations,
+  echantillon,
 } from '../src';
 
 describe('JS Basics Tests', () => {
@@ -248,8 +249,28 @@ describe('JS Basics Tests', () => {
    *
    */
   describe('Test echantillon', () => {
-    // TODO
-  });
+  // TODO
+       test('Un tableau vide', () => {
+         Math.random = jest.fn(() => 0);
+         echantillon([]);
+         expect(Math.random.mock.calls.length).toBe(1);
+       });
+       test('Un tableau avec plusieurs elements et retourner le premier element', () => {
+         Math.random = jest.fn(() => 0);
+         let retour = echantillon([1, 2, 3, 4]);
+         expect(retour).toBe(1);
+       });
+       test('Un tableau avec plusieurs elements et retourner l element au milieu', () => {
+                Math.random = jest.fn(() => 0.5);
+                let retour = echantillon([1, 2, 3]);
+                expect(retour).toBe(2);
+              });
+       test('Un tableau avec plusieurs elements et retourner le dernier element', () => {
+         Math.random = jest.fn(() => 0.9999);
+         let retour = echantillon([1, 2, 2, 3]);
+         expect(retour).toBe(3);
+       });
+});
 
   /**
    * Tester la fonction `enumerer`.
