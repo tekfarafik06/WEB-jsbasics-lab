@@ -10,6 +10,7 @@ import {
   permutations,
   echantillon,
   enumerer,
+  nMax,
 } from '../src';
 
 describe('JS Basics Tests', () => {
@@ -331,5 +332,43 @@ describe('JS Basics Tests', () => {
    */
   describe('Test nMax', () => {
     // TODO
+    test('Un tableau vide', () => {
+        const monTab = [];
+        const attendu = [];
+        expect(nMax(monTab, 5)).toEqual(attendu);
+    });
+    test('n = 0', () => {
+        const monTab = [1, 2, 3];
+        const attendu = [];
+        expect(nMax(monTab, 0)).toEqual(attendu);
+    });
+    test('n = 1, tableau avec des nombres', () => {
+        const monTab = [1, 2, 3];
+        const attendu = [3];
+        expect(nMax(monTab, 1)).toEqual(attendu);
+    });
+
+    test('n = 2, tableau avec des nombres', () => {
+        const monTab = [1, 2, 3];
+        const attendu = [3, 2];
+        expect(nMax(monTab, 2)).toEqual(attendu);
+    });
+
+    test('n supérieur à la taille du tableau, tableau avec des nombres', () => {
+        const monTab = [1, 2, 3];
+        const attendu = [3, 2, 1];
+        expect(nMax(monTab, 20)).toEqual(attendu);
+    });
+
+    test('n = 1, tableau avec des nombres et des chaînes de caractères', () => {
+        const monTab = [1, '2', 3];
+        const attendu = [3];
+        expect(nMax(monTab, 1)).toEqual(attendu);
+    });
+    test('doublon', () => {
+        const monTab = [1, 1, 3, 1, 5, 5, 8];
+        const attendu = [8, 5];
+        expect(nMax(monTab, 2)).toEqual(attendu);
+    });
   });
 });
