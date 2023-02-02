@@ -9,6 +9,7 @@ import {
   aplatirRecursif,
   permutations,
   echantillon,
+  enumerer,
 } from '../src';
 
 describe('JS Basics Tests', () => {
@@ -286,6 +287,31 @@ describe('JS Basics Tests', () => {
    */
   describe('Test enumerer', () => {
     // TODO
+    test('Un tableau vide', () => {
+          const monTab = [];
+          const attendu = "";
+          expect(enumerer(monTab)).toEqual(attendu);
+        });
+        test('Un tableau avec un seul élément', () => {
+          const monTab = ["Riri"];
+          const attendu = "Riri";
+          expect(enumerer(monTab)).toEqual(attendu);
+        });
+        test('Un tableau avec deux éléments', () => {
+          const monTab = ["Riri", "Fifi"];
+          const attendu = "Riri&Fifi";
+          expect(enumerer(monTab, ',','&')).toEqual(attendu);
+        });
+        test('Un tableau avec trois éléments', () => {
+          const monTab = ["Riri", "Fifi", "Loulou"];
+          const attendu = "Riri,Fifi&Loulou";
+          expect(enumerer(monTab, ',', '&')).toEqual(attendu);
+        });
+        test('Un tableau avec trois élèments paramètres par défauts', () => {
+          const monTab = ["Riri", "Fifi", "Loulou"];
+          const attendu = "Riri, Fifi, Loulou";
+          expect(enumerer(monTab)).toEqual(attendu);
+        });
   });
 
   /**
